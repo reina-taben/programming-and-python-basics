@@ -1,0 +1,15 @@
+name =input ("sheron:")
+age =int(input ("12:")
+course =input ("nursing:")
+
+print(f"""
+Welcome =("name:{name}:")
+Age: =("age: {age}:")
+Course: ("course:{course}:")
+We're glad you're here!
+""")
+Output:
+Welcome sheron 
+Age: 13
+Course: nursing
+We're glad you're here
