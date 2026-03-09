@@ -1,0 +1,20 @@
+name = input("Enter student name:")
+  if name == 'done':
+    break
+
+  mark = int(input("Mark: "))
+  if mark >= 80:
+    grade = 'A'
+  elif mark >= 60:
+    grade = 'B'
+  elif mark >= 40:
+    grade = 'C'
+  else:
+    grade = 'D Fail'
+
+  students.append([name, mark, grade])
+  print(f"{name}: {grade}\n")
+
+print("Grades:")
+for student in students:
+  print(f"{student[0]}: {student[1]} - {student[2]}")
